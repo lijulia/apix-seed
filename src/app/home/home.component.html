@@ -1,0 +1,25 @@
+<!--
+  ~ Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+  ~ This software is released under MIT license.
+  ~ The full license information can be found in LICENSE in the root directory of this project.
+  -->
+<p>This is a APIX seed application. This is the default page that loads for the application.</p>
+
+<api-list
+    [baseRoute] = "'/'"
+    [remoteApiUrl] = "'https://vdc-repo.vmware.com/apix'"
+    [remoteSampleExchangeUrl] = "'https://apigw.vmware.com/sampleExchange/v1'"
+    [localApiUrl] = "'local.json'"
+    [apiListHeaderText] ="'Available APIs'"
+    [enableLocal] ="true"
+    [enableRemote]= "true"
+    [hideFilters]= "true"
+    [hideProductsFilter]="false"
+    [hideLanguagesFilter]="false"
+    [hideSourcesFilter]="false"
+    [defaultProductsFilter]="['vSphere']"
+    [defaultSourcesFilter]="[]"
+
+    >
+</api-list>
+
